@@ -1,0 +1,713 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "rol": "admin",
+      "trainer_id": "",
+      "password": "12345678",
+      "id": "1"
+    },
+    {
+      "name": "Eladiomprueba",
+      "rol": "user",
+      "password": "12345678",
+      "id": "3",
+      "trainer_id": "2"
+    },
+    {
+      "id": "2",
+      "name": "Miguel",
+      "rol": "trainer",
+      "password": "12345678",
+      "trainer_id": "2"
+    },
+    {
+      "id": "7efc",
+      "name": "María",
+      "rol": "user",
+      "password": "12345678",
+      "trainer_id": "2"
+    },
+    {
+      "name": "RodolfoCambio",
+      "rol": "user",
+      "id": "d6ae",
+      "password": "12345678",
+      "trainer_id": "2"
+    },
+    {
+      "name": "prueba2",
+      "rol": "user",
+      "id": "582e",
+      "password": "12345678",
+      "trainer_id": "2"
+    },
+    {
+      "name": "prueba3",
+      "rol": "user",
+      "id": "50e9",
+      "password": "12345678"
+    },
+    {
+      "id": "58ca"
+    },
+    {
+      "id": "9d7c"
+    },
+    {
+      "id": "4a10"
+    },
+    {
+      "name": "PruebaTrainer",
+      "rol": "trainer",
+      "trainer_id": "",
+      "password": "12345678",
+      "id": "1b8f"
+    },
+    {
+      "name": "PruebaAvanzada",
+      "rol": "user",
+      "trainer_id": "1b8f",
+      "password": "12345678",
+      "id": "4727"
+    },
+    {
+      "id": "54b6"
+    },
+    {
+      "id": "4155"
+    }
+  ],
+  "trainings": [
+    {
+      "id": "1",
+      "idUser": 3,
+      "date": "2024-12-18",
+      "title": "Lastre",
+      "description": "Entrenando cargas pesadas",
+      "type": "carga",
+      "exercises": [
+        {
+          "id": 1,
+          "summary": "Dominadas",
+          "series": [
+            {
+              "id": "clrtyrbft",
+              "numberOfSerie": 1,
+              "repetitions": 10,
+              "notes": "20 kg",
+              "done": false
+            },
+            {
+              "id": "5kaeckxaq",
+              "numberOfSerie": 2,
+              "repetitions": 10,
+              "notes": "20 kg",
+              "done": false
+            },
+            {
+              "id": "eomo4p6wv",
+              "numberOfSerie": 3,
+              "repetitions": 6,
+              "notes": "25 kg",
+              "done": false
+            }
+          ],
+          "repetitions": 4,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "Entrena más duro",
+          "userNotes": "Prueba de nota de usuario"
+        },
+        {
+          "id": 2,
+          "summary": "Fondos",
+          "series": [
+            {
+              "numberOfSerie": 1,
+              "repetitions": 12,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "10 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 2,
+              "repetitions": 14,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "12 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 3,
+              "repetitions": 16,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "14 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 4,
+              "repetitions": 18,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "16 kg",
+              "userNotes": ""
+            }
+          ],
+          "repetitions": 5,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": 3,
+          "summary": "Touch front lever",
+          "series": [
+            {
+              "numberOfSerie": 1,
+              "repetitions": 12,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "10 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 2,
+              "repetitions": 14,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "12 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 3,
+              "repetitions": 16,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "14 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 4,
+              "repetitions": 18,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "16 kg",
+              "userNotes": ""
+            }
+          ],
+          "repetitions": "5s",
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": 4,
+          "summary": "Muscle ups",
+          "series": [
+            {
+              "numberOfSerie": 1,
+              "repetitions": 12,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "10 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 2,
+              "repetitions": 14,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "12 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 3,
+              "repetitions": 16,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "14 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 4,
+              "repetitions": 18,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "16 kg",
+              "userNotes": ""
+            }
+          ],
+          "repetitions": 8,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "Sigue entrenando",
+          "userNotes": ""
+        },
+        {
+          "id": 5,
+          "summary": "Dominadas",
+          "series": [
+            {
+              "numberOfSerie": 1,
+              "repetitions": 12,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "10 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 2,
+              "repetitions": 14,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "12 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 3,
+              "repetitions": 16,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "14 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 4,
+              "repetitions": 18,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "16 kg",
+              "userNotes": ""
+            }
+          ],
+          "repetitions": 12,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": 6,
+          "summary": "Dominadas lastradas",
+          "series": [
+            {
+              "numberOfSerie": 1,
+              "repetitions": 12,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "10 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 2,
+              "repetitions": 14,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "12 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 3,
+              "repetitions": 16,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "14 kg",
+              "userNotes": ""
+            },
+            {
+              "numberOfSerie": 4,
+              "repetitions": 18,
+              "done": false,
+              "timeExercise": false,
+              "restingTime": 180,
+              "notes": "16 kg",
+              "userNotes": ""
+            }
+          ],
+          "repetitions": 3,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": "d3hqsmti2",
+          "summary": "New Exercise modificando nombre",
+          "series": [
+            {
+              "id": "n52723q4s",
+              "numberOfSerie": 1,
+              "repetitions": 214,
+              "notes": "124",
+              "done": false
+            }
+          ],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": "scvsefftx",
+          "summary": "New Exercise 13434",
+          "series": [
+            {
+              "id": "1sdki57mz",
+              "numberOfSerie": 1,
+              "repetitions": 0,
+              "notes": "",
+              "done": false
+            },
+            {
+              "id": "wlty1tgk9",
+              "numberOfSerie": 2,
+              "repetitions": 0,
+              "notes": "",
+              "done": false
+            }
+          ],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        }
+      ]
+    },
+    {
+      "date": "01/01/2026",
+      "title": "Prueba entrenamiento",
+      "description": "Description modificada",
+      "type": "Intensidad",
+      "id": "a7mumgjhl"
+    },
+    {
+      "date": "01/01/2025",
+      "title": "New Training",
+      "description": "Description",
+      "type": "type",
+      "id": "s8xw2lxra"
+    },
+    {
+      "id": "2t5uxckgd",
+      "idUser": "2",
+      "date": "01/01/2026",
+      "title": "Prubea nuevo entreno",
+      "description": "Description de prueba",
+      "type": "Prueba de tipo",
+      "exercises": [
+        {
+          "id": "nxe0gjsez",
+          "summary": "Dominadas lastradas",
+          "series": [
+            {
+              "id": "yx1yha48u",
+              "numberOfSerie": 1,
+              "repetitions": 10,
+              "notes": "20kg",
+              "done": false
+            },
+            {
+              "id": "a5xlzsqeu",
+              "numberOfSerie": 2,
+              "repetitions": 10,
+              "notes": "20kg",
+              "done": false
+            },
+            {
+              "id": "klj52ibkw",
+              "numberOfSerie": 3,
+              "repetitions": 8,
+              "notes": "25kg",
+              "done": false
+            }
+          ],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": "zwtbbj6rq",
+          "summary": "Fondos",
+          "series": [
+            {
+              "id": "fp0e6mo5g",
+              "numberOfSerie": 1,
+              "repetitions": 10,
+              "notes": "10kg",
+              "done": false
+            },
+            {
+              "id": "umdakfiyw",
+              "numberOfSerie": 2,
+              "repetitions": 10,
+              "notes": "10kg",
+              "done": false
+            }
+          ],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": "oxscmsxxh",
+          "summary": "New Exercisevwve",
+          "series": [
+            {
+              "id": "g8tj9tvos",
+              "numberOfSerie": 1,
+              "repetitions": 10,
+              "notes": "5kg",
+              "done": false
+            }
+          ],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": "hds5g7cwv",
+          "summary": "New Exercise",
+          "series": [],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        }
+      ]
+    },
+    {
+      "id": "vo9rnee56",
+      "idUser": "8852",
+      "date": "26/01/2025",
+      "title": "Entrenamiento de prueba",
+      "description": "Description",
+      "type": "type",
+      "exercises": [
+        {
+          "id": "90u2j6f02",
+          "summary": "Dominadas",
+          "series": [
+            {
+              "id": "8sae2l7zp",
+              "numberOfSerie": 1,
+              "repetitions": 12,
+              "notes": "10 kg",
+              "done": false
+            },
+            {
+              "id": "w71f81t4h",
+              "numberOfSerie": 2,
+              "repetitions": 15,
+              "notes": "5 kg",
+              "done": false
+            }
+          ],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": "rwlm3aqmf",
+          "summary": "Flexiones",
+          "series": [],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        }
+      ]
+    },
+    {
+      "id": "vzsfr3jxm",
+      "idUser": "2",
+      "date": "01/01/2025",
+      "title": "New Training",
+      "description": "Description",
+      "type": "type",
+      "exercises": []
+    },
+    {
+      "id": "be5c07qb0",
+      "idUser": "2",
+      "date": "01/01/2025",
+      "title": "New Training",
+      "description": "Description",
+      "type": "type",
+      "exercises": []
+    },
+    {
+      "id": "fyl2r27m9",
+      "idUser": "1",
+      "date": "01/01/2025",
+      "title": "New Training",
+      "description": "Description",
+      "type": "type",
+      "exercises": [
+        {
+          "id": "3k9yltxtp",
+          "summary": "New Exercise",
+          "series": [
+            {
+              "id": "nfywpm91i",
+              "numberOfSerie": 1,
+              "repetitions": 0,
+              "notes": "",
+              "done": false
+            }
+          ],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        }
+      ]
+    },
+    {
+      "id": "du5idjogg",
+      "idUser": "3",
+      "date": "01/01/2025",
+      "title": "New Training",
+      "description": "Description",
+      "type": "type",
+      "exercises": [
+        {
+          "id": "q08dt6zw6",
+          "summary": "New Exercise",
+          "series": [
+            {
+              "id": "mvnht5wyg",
+              "numberOfSerie": 1,
+              "repetitions": 0,
+              "notes": "",
+              "done": false
+            },
+            {
+              "id": "pndpgo0wi",
+              "numberOfSerie": 2,
+              "repetitions": 0,
+              "notes": "",
+              "done": false
+            },
+            {
+              "id": "zlxyyqo4l",
+              "numberOfSerie": 3,
+              "repetitions": 0,
+              "notes": "",
+              "done": false
+            }
+          ],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        },
+        {
+          "id": "kl7d8hx4o",
+          "summary": "New Exercise",
+          "series": [
+            {
+              "id": "rs2v0x7as",
+              "numberOfSerie": 1,
+              "repetitions": 0,
+              "notes": "",
+              "done": false
+            }
+          ],
+          "repetitions": 0,
+          "done": false,
+          "timeExercise": false,
+          "restingTime": 180,
+          "explanation": "",
+          "userNotes": ""
+        }
+      ]
+    },
+    {
+      "idUser": "3",
+      "date": "15/02/2025",
+      "title": "Updated Training Title",
+      "description": "Updated description for the training session.",
+      "type": "Updated Type",
+      "exercises": [
+        {
+          "name": "Push-ups",
+          "reps": 20,
+          "sets": 3
+        }
+      ],
+      "id": "pju9mdfsp"
+    },
+    {
+      "id": "zqzul062a",
+      "idUser": "3",
+      "date": "01/01/2025",
+      "title": "New Training",
+      "description": "Description",
+      "type": "type",
+      "exercises": []
+    },
+    {
+      "id": "d1rzmm5db",
+      "idUser": "1",
+      "date": "01/01/2025",
+      "title": "New Training",
+      "description": "Description",
+      "type": "type",
+      "exercises": []
+    }
+  ]
+}

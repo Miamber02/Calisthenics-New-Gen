@@ -1,0 +1,63 @@
+.exercise-admin-container {
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .exercise-summary-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  
+  .exercise-summary-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  .exercise-admin-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .exercise-admin-button.add-serie {
+    margin-left: 0;
+  }
+  
+  .exercise-admin-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .series-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .exercise-admin-container button,
+  .exercise-admin-container input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+  

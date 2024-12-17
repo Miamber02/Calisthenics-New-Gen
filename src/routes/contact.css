@@ -1,0 +1,54 @@
+ul li button {
+    visibility: hidden;
+  }
+  
+  ul li:hover button {
+    visibility: visible;
+  }
+  
+  button.delete {
+    color: red;
+  }
+
+  ul li#logout-li button {
+    visibility: visible;
+    margin-left: 0px;
+  }
+
+  .training-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .training-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .training-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    flex-grow: 1;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .training-link:hover {
+    color: #0056b3;
+  }
+
+  #contact {
+    margin-left: 75px;
+  }
+
+  button {
+    margin-left: 10px;
+  }

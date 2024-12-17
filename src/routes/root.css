@@ -1,0 +1,17 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+    padding: 16px;
+    overflow-y: auto;
+  }
+  
+  #detail {
+    margin-left: 300px;
+    padding: 16px;
+  }
+  

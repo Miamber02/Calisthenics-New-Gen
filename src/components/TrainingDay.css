@@ -1,0 +1,85 @@
+.training-day-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f7fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .training-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .training-title span {
+    color: inherit;
+  }
+  
+  .add-exercise-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-exercise-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  .exercise-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .exercise-admin {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .exercise-admin:hover {
+    transform: scale(1.02);
+  }
+  
+  .exercise-list > * {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .training-day-container {
+      padding: 15px;
+    }
+  
+    .training-title {
+      font-size: 1.5rem;
+    }
+  
+    .add-exercise-button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  
+    .exercise-admin {
+      padding: 15px;
+    }
+  }
+  
